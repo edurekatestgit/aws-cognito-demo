@@ -1,0 +1,37 @@
+.login {
+  margin: 5em 1em;
+}
+
+.login h2 {
+  font-size: 1.8em;
+  padding-bottom: .5em;
+}
+
+.login input {
+  width: 500px;
+}
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+  align-items: stretch !important;
+  display: flex !important;
+}
+
+.navbar-menu {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.navbar-item {
+  display: flex !important;
+}
+
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+}
+
+.features {
+  padding-bottom: 3em;
+}
